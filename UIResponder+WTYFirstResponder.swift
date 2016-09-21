@@ -13,7 +13,7 @@ extension UIResponder {
     
     static func wty_firstResponder() -> AnyObject? {
         wty_currentFirstResponder = nil
-        UIApplication.shared.sendAction(#selector(wty_findFirstResponder(sender:)), to: nil, from: nil, for: nil)
+        UIApplication.shared.sendAction(#selector(wty_findFirstResponder(_:)), to: nil, from: nil, for: nil)
         return wty_currentFirstResponder
     }
     
