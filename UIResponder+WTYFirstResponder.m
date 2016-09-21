@@ -1,5 +1,5 @@
 //
-//  UIResponder+WTYFirstResponder.h
+//  UIResponder+WTYFirstResponder.m
 //  WTYFirstResponder
 //
 //  Created by Tianyu Wang on 16/9/22.
